@@ -105,3 +105,4 @@ def coinconvert()
                 print (total)
         
     start = input("Enter your starting currency(Either CD,US EU)")
+coinconvert()
