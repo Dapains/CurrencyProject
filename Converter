@@ -1,0 +1,107 @@
+def coinconvert()
+    start = input("Enter your starting currency(Either CD,US EU)")
+    while start != "Quit":
+        if start == "CD":
+            choice = input("What currency are you converting to?")
+            while choice == "CD"
+                choice = input("enter a different currency from your starting one")
+            if choice == "US":
+                amount = int(input("Enter the amount you are converting"))
+                while amount <= 0:
+                    amount = int(input("Enter a positive amount"))
+                feetype = input("will this be cash or check?")
+                if feetype == "cash":
+                    fee = (amount * .05)
+                    print(fee)
+                elif feetype == "check":
+                    fee = (amount * .01)
+                    print(fee)
+                else:
+                    feetype = input("enter either cash or check")
+                total = (amount * .78)
+                print (total)
+            if choice == "EU":
+                amount = int(input("Enter the amount you are converting"))
+                while amount <= 0:
+                    amount = int(input("Enter a positive amount"))
+                feetype = input("will this be cash or check?")
+                if feetype == "cash":
+                    fee = (amount * .05)
+                    print(fee)
+                elif feetype == "check":
+                    fee = (amount * .01)
+                    print(fee)
+                else:
+                    feetype = input("enter either cash or check")
+                total = (amount * .78)
+                print (total)
+        elif start == "US":
+            choice = input("What currency are you converting to?")
+            while choice == "US"
+                choice = input("enter a different currency from your starting one")
+            if choice == "CD":
+                amount = int(input("Enter the amount you are converting"))
+                while amount <= 0:
+                    amount = int(input("Enter a positive amount"))
+                feetype = input("will this be cash or check?")
+                if feetype == "cash":
+                    fee = (amount * .05)
+                    print(fee)
+                elif feetype == "check":
+                    fee = (amount * .01)
+                    print(fee)
+                else:
+                    feetype = input("enter either cash or check")
+                total = (amount * 1.29)
+                print (total)
+            if choice == "EU":
+                amount = int(input("Enter the amount you are converting"))
+                while amount <= 0:
+                    amount = int(input("Enter a positive amount"))
+                feetype = input("will this be cash or check?")
+                if feetype == "cash":
+                    fee = (amount * .05)
+                    print(fee)
+                elif feetype == "check":
+                    fee = (amount * .01)
+                    print(fee)
+                else:
+                    feetype = input("enter either cash or check")
+                total = (amount * .88)
+                print (total)
+        if start == "EU"
+            choice = input("What currency are you converting to?")
+            while choice == "EU"
+                choice = input("enter a different currency from your starting one")
+            if choice == "US":
+                amount = int(input("Enter the amount you are converting"))
+                while amount <= 0:
+                    amount = int(input("Enter a positive amount"))
+                feetype = input("will this be cash or check?")
+                if feetype == "cash":
+                    fee = (amount * .05)
+                    print(fee)
+                elif feetype == "check":
+                    fee = (amount * .01)
+                    print(fee)
+                else:
+                    feetype = input("enter either cash or check")
+                total = (amount * 1.13)
+                print (total)
+            if choice == "CD":
+                amount = int(input("Enter the amount you are converting"))
+                while amount <= 0:
+                    amount = int(input("Enter a positive amount"))
+                feetype = input("will this be cash or check?")
+                if feetype == "cash":
+                    fee = (amount * .05)
+                    print(fee)
+                elif feetype == "check":
+                    fee = (amount * .01)
+                    print(fee)
+                else:
+                    feetype = input("enter either cash or check")
+                total = (amount * 1.46)
+                print (total)
+        
+    start = input("Enter your starting currency(Either CD,US EU)")
